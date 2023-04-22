@@ -20,7 +20,7 @@ respuestaBoton.addEventListener(`click`,function(){
         theme: "dark1", // "light2", "dark1", "dark2"
         animationEnabled: true, // change to true		
         title:{
-            text: "pokemon"
+            text: response.name
         },
         data: [
         {
